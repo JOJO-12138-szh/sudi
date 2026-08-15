@@ -11,6 +11,16 @@ export type Project = {
 
 export const projectsData: Project[] = [
   {
+    "id": "proj_1786780481033",
+    "name": "打印机程序",
+    "githubUrl": "https://github.com/JOJO-12138-szh/dayingji",
+    "description": "一个简单的打印机程序",
+    "icon": "🚀",
+    "tags": [
+      "大顶堆实现优先队列"
+    ]
+  },
+  {
     "id": "proj_1775049332705",
     "name": "Computational Chemistry Tool",
     "githubUrl": "https://github.com/heiehiehi/Computational_Chemistry_Tool",
@@ -20,5 +30,5 @@ export const projectsData: Project[] = [
       "Gromacs",
       "RMSF"
     ]
-  },
+  }
 ];
