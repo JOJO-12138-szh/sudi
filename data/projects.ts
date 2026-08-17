@@ -11,6 +11,16 @@ export type Project = {
 
 export const projectsData: Project[] = [
   {
+    "id": "proj_1786950956182",
+    "name": "STM32小车开发",
+    "githubUrl": "https://github.com/JOJO-12138-szh/STM32",
+    "description": "基于STM32开发的小车各个功能",
+    "icon": "🚀",
+    "tags": [
+      "c语言"
+    ]
+  },
+  {
     "id": "proj_1786780481033",
     "name": "打印机程序",
     "githubUrl": "https://github.com/JOJO-12138-szh/dayingji",
@@ -18,17 +28,6 @@ export const projectsData: Project[] = [
     "icon": "🚀",
     "tags": [
       "大顶堆实现优先队列"
-    ]
-  },
-  {
-    "id": "proj_1775049332705",
-    "name": "Computational Chemistry Tool",
-    "githubUrl": "https://github.com/heiehiehi/Computational_Chemistry_Tool",
-    "description": "该工具本作者使用在Win下的WSL2平台，系统为Ubuntu22，个人使用请依据自己数据进行修改（这些工具只是整合了一些流程）",
-    "icon": "🚀",
-    "tags": [
-      "Gromacs",
-      "RMSF"
     ]
   }
 ];
