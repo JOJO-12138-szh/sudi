@@ -11,6 +11,16 @@ export type Project = {
 
 export const projectsData: Project[] = [
   {
+    "id": "proj_1787217134374",
+    "name": "传感器监控",
+    "githubUrl": "https://github.com/JOJO-12138-szh/cpu_monitor",
+    "description": "采集线程读传感器数据，放入环形内存缓冲区，条数+时间双阈值；DB线程取出一批，MYSQL_STMT预处理批量写入数据库",
+    "icon": "🚀",
+    "tags": [
+      "c、mysql"
+    ]
+  },
+  {
     "id": "proj_1786950956182",
     "name": "STM32小车开发",
     "githubUrl": "https://github.com/JOJO-12138-szh/STM32",
